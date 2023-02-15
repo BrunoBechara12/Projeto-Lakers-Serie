@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href=".//src/css/reset.css" />
+
+    <link rel="stylesheet" href=".//src/css/estilos.css" />
+
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+
+    <title>Los Angeles Lakers</title>
+  </head>
+  <body>
+     <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Winning Time_ The Rise of the Lakers Dynasty _ Official Trailer _ HBO Max.mp4" type="video/mp4" />
+        </video>
+    </div>
+    
+    <header class="cabecalho">
+      <a>
+        <img class="logo" src="./src/imagens/Nba-logo.png" alt="logo da NBA" />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GYbDO6QFHOsPCwgEAAAMR?countryRedirect=1">Assista aqui</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="imagem-titulo"
+          src="./src/imagens/Lakers-logo.png"
+          alt="imagem do título do Lakers"
+        />
+        <p class="descricao">
+          O Los Angeles Lakers é um time de basquetebol da NBA fundado em 1947 na cidade de Minneapolis, e desde estão criou uma dinastia tão grande dentro da liga, ganhando 17 titulos da NBA, que em 2022 ganhou sua própria série na plataforma HBOMAX, chamada de: "Lakers: Hora de Vencer"
+        </p>
+        <button class="botao-trailer">Veja o trailer
+        </button>
+      </div>
+      <img class="imagem-todos" src="./src/imagens/imagem-personagens.png" />
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/idYal-BZccQ" title="Trailer Oficial" frameborder="1" allow= "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
